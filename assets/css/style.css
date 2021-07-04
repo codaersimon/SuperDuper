@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Maven+Pro&display=swap');
+
+*{
+    margin: 0;
+}
+/* Top Section */
+#title{
+    min-height: 100vh;
+    background: #333;
+    color: #ccc;
+    padding-bottom: 0px;
+}
+/* Logo top Left */
+#title article{
+    margin-left: 10px;
+    text-align: left;
+    font-family: 'Maven pro', sans-serif;
+    letter-spacing: 3px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+/* Logo Center */
+#title div{
+    font-family: 'Gilda Display', serif;
+    text-align: center;
+    height: 200px;
+    width: 230px;
+    margin: 25vw auto;
+    padding: 5px;
+    background-image: linear-gradient(to top right, #8507e1, #3dc8d5);
+    border-radius: 4px;
+    color: #fff
+}
+#title div h1{
+    text-align: center;
+    font-size: 56px;
+}
+#title div p{
+    font-family: 'Maven pro', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 30px;
+}
+#title div:hover {
+    background-image: linear-gradient(to bottom left, #8507e1, #3dc8d5);
+}
+/* Nav right */
+nav{
+    text-align: right;
+    font-family: 'Maven pro', sans-serif;
+    line-height: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+li{
+    list-style: none;
+    line-height: 25px;
+}
+a{
+    text-decoration: none;
+    color: #ccc;
+}
+a:hover{
+    color: #fff
+}
+/* Background Section */
+#descr{
+    min-height: 65vh;
+    background: url(../img/background.svg);
+    background-repeat: no-repeat;
+    margin: 100px;
+}
+#descr h1{
+    padding: 80px 0px;
+    font-size: 55px;
+}
+#descr p{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 15px;
+    width: 450px;
+}
+/*  product sections */
+.prod {
+    min-height: 50vh;
+    margin-left: 15%;
+    padding-bottom: 200px;
+}
+.prod img{
+    width: 80%;
+    height: 80%;
+    margin: 0% auto;
+    text-align: center;
+    border-radius: 15px;
+}
+.prod h1{
+    padding-top: 30px;
+    font-size: 30px;
+}
+.prod p{
+    padding-top: 20px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+}
